@@ -1,7 +1,3 @@
-# 数据缓存（太大，不提交）
-cache/
-data/
-
 # Python
 __pycache__/
 *.pyc
@@ -9,28 +5,11 @@ __pycache__/
 .venv/
 venv/
 
-# 回测输出
-*.png
-*.html
-dashboard.html
-oos_validation.png
-falcon1_*.png
-
-# 纸上交易状态（含账户数据）
-paper_trade/
-real_positions.json
-signals_*.csv
-signals_*.json
-.rebalance_counter
-
-# 非量化项目
-live_frame/
-
 # 临时文件
 *.tmp
 *.log
-.claude/
-.claude/
+*.png
+*.html
 
 # IDE
 .vscode/
@@ -39,3 +18,6 @@ live_frame/
 # 系统
 .DS_Store
 Thumbs.db
+
+# Claude
+.claude/
